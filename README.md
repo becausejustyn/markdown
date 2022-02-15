@@ -11,6 +11,18 @@ Cool!
 > Blockquotes help you emulate reply text.
 > This line is part of the same quote.
 
+***
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
+***
+
 ```python
 def function():
     #indenting works just fine in the fenced code block
