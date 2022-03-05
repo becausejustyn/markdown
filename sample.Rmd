@@ -1,0 +1,38 @@
+---
+title: "Sample"
+author: "Justyn Rodrigues"
+date: "16/02/2022"
+output:
+  html_document: 
+    highlight: tango
+    css: css/github2.css
+    toc: yes
+    df_print: tibble
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Quarterly Results {.tabset}
+
+### By Product
+
+```{r}
+x <- rnorm(10, mean = 1, sd = 1.5)
+```
+
+
+### By Region
+
+(tab content)
+
+## Quarterly Results {.tabset .tabset-fade .tabset-pills}
+
+### By Product
+
+(tab content)
+
+### By Region
+
+(tab content)
